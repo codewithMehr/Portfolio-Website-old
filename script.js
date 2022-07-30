@@ -46,7 +46,7 @@ lightMode2.addEventListener('click', () => {
    else {
       document.getElementById("lightMode_2").innerHTML = "&#9728;"
       document.getElementById("profilePicture").src = "black.jpg";
-      document.getElementById("backgroundColor").style.backgroundSize = "contain";
+      document.getElementById("backgroundColor").style.backgroundSize = "cover";
       document.getElementById("lightMode_2").title = "light Mode";
    }
 })
